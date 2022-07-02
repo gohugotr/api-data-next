@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Articles from '../components/Articles'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Api ile makale datası çekme</h1>
+        <Articles/>
       </main>
 
       <footer className={styles.footer}></footer>
